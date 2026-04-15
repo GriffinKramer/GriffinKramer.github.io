@@ -16,6 +16,7 @@
     <span class="nav-name">GDK</span>
     <ul>
       <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
       <li><a href="#research">Research</a></li>
       <li><a href="#publications">Publications</a></li>
       <li><a href="#teaching">Teaching</a></li>
@@ -46,7 +47,7 @@
         <div class="hero-links">
           <a href="https://github.com/GriffinKramer" target="_blank" class="btn-outline">GitHub →</a>
           <a href="https://www.linkedin.com/in/griffin-d-kramer" target="_blank" class="btn-outline">LinkedIn →</a>
-          <a href="cv.pdf" class="btn-solid">Download CV</a>
+          <a href="Griffin_Kramer_Resume.pdf" class="btn-solid">Download CV</a>
         </div>
       </div>
       <div class="hero-visual">
@@ -57,7 +58,6 @@
             <circle cx="130" cy="130" r="52" fill="#ede7d8" stroke="#0d2b5e" stroke-width="1"/>
             <text x="130" y="126" text-anchor="middle" font-family="'DM Serif Display', serif" font-size="13" fill="#0d2b5e" letter-spacing="2">G·D·K</text>
             <text x="130" y="144" text-anchor="middle" font-family="'DM Mono', monospace" font-size="7.5" fill="#3a5278" letter-spacing="1">BIOINFORMATICS</text>
-            <!-- orbit dots -->
             <circle cx="130" cy="20" r="4" fill="#1a4a8a" opacity="0.6"/>
             <circle cx="240" cy="130" r="3" fill="#1a4a8a" opacity="0.4"/>
             <circle cx="130" cy="240" r="4" fill="#1a4a8a" opacity="0.6"/>
@@ -68,17 +68,80 @@
         </div>
       </div>
     </div>
-    <!-- stats bar -->
     <div class="stats-bar">
       <div class="stat"><span class="stat-n">4+</span><span class="stat-l">Years Research</span></div>
       <div class="stat"><span class="stat-n">2</span><span class="stat-l">MSc Awards</span></div>
       <div class="stat"><span class="stat-n">NSF</span><span class="stat-l">GRFP Honorable Mention</span></div>
-      <div class="stat"><span class="stat-n">6</span><span class="stat-l">GitHub Repos</span></div>
+      <div class="stat"><span class="stat-n">3</span><span class="stat-l">Labs</span></div>
     </div>
   </header>
 
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-inner">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-card-top">
+            <div class="project-meta">
+              <span class="project-lang lang-py">Python · Nextflow</span>
+              <span class="project-year">2026</span>
+            </div>
+            <h3 class="project-title">RP1B — RNA-seq Pipeline</h3>
+            <p class="project-desc">MSc research project at the University of Bath. A Nextflow pipeline for paired-end RNA-seq analysis — read alignment, QC, and quantification — built for reproducible execution in HPC environments.</p>
+            <div class="project-tags">
+              <span>RNA-seq</span><span>Nextflow</span><span>HPC</span><span>Python</span>
+            </div>
+          </div>
+          <div class="project-card-bottom">
+            <a href="https://github.com/GriffinKramer/RP1B" target="_blank" class="project-link">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-top">
+            <div class="project-meta">
+              <span class="project-lang lang-r">R · Rmd</span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3 class="project-title">Regulatory Rewiring</h3>
+            <p class="project-desc">Analysis of transcriptional consequences of σ⁵⁴ regulatory rewiring in <em>Pseudomonas fluorescens</em>. Covers differential expression, GSEA, variant calling, and mutation-to-regulatory prediction across 8 analysis modules.</p>
+            <div class="project-tags">
+              <span>RNA-seq</span><span>DESeq2</span><span>GSEA</span><span>Variant Calling</span>
+            </div>
+          </div>
+          <div class="project-card-bottom">
+            <a href="https://github.com/GriffinKramer/Regulatory-Rewiring" target="_blank" class="project-link">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-top">
+            <div class="project-meta">
+              <span class="project-lang lang-py">Python</span>
+              <span class="project-year">2024</span>
+            </div>
+            <h3 class="project-title">BFM — Bioinformatics File Manager</h3>
+            <p class="project-desc">A toolkit of Python scripts for common bioinformatics file management: merging count tables, building custom guide libraries, mapping unmapped reads, UniProt ID conversion, and MAGeCK-iNC output processing.</p>
+            <div class="project-tags">
+              <span>MAGeCK</span><span>CRISPRi</span><span>pandas</span><span>CLI</span>
+            </div>
+          </div>
+          <div class="project-card-bottom">
+            <a href="https://github.com/GriffinKramer/BFM" target="_blank" class="project-link">View on GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="projects-footer">
+        <a href="https://github.com/GriffinKramer" target="_blank" class="btn-outline">All repositories on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
   <!-- RESEARCH EXPERIENCE -->
-  <section id="research">
+  <section id="research" class="alt-bg">
     <div class="section-inner">
       <h2 class="section-title">Research</h2>
       <div class="timeline">
@@ -133,7 +196,7 @@
   </section>
 
   <!-- PUBLICATIONS -->
-  <section id="publications" class="alt-bg">
+  <section id="publications">
     <div class="section-inner">
       <h2 class="section-title">Publications &amp; Presentations</h2>
       <div class="pub-list">
@@ -156,7 +219,7 @@
   </section>
 
   <!-- SKILLS -->
-  <section id="skills">
+  <section id="skills" class="alt-bg">
     <div class="section-inner">
       <h2 class="section-title">Technical Skills</h2>
       <div class="skills-grid">
@@ -201,7 +264,7 @@
   </section>
 
   <!-- TEACHING & LEADERSHIP -->
-  <section id="teaching" class="alt-bg">
+  <section id="teaching">
     <div class="section-inner">
       <h2 class="section-title">Teaching &amp; Leadership</h2>
       <div class="role-list">
@@ -235,7 +298,7 @@
   </section>
 
   <!-- CONTACT -->
-  <section id="contact">
+  <section id="contact" class="alt-bg">
     <div class="section-inner contact-inner">
       <h2 class="section-title">Contact</h2>
       <p class="contact-blurb">I'm always open to discussing research, collaborations, or bioinformatics.</p>
