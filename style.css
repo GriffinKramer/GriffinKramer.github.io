@@ -305,8 +305,8 @@ section { padding: 5rem 2.5rem; }
   color: var(--text-faint);
 }
 .project-card.featured .project-tags span {
-  border-color: rgba(245, 240, 232, 0.18);
-  color: rgba(245, 240, 232, 0.42);
+  border-color: rgba(245, 240, 232, 0.3);
+  color: rgba(245, 240, 232, 0.7);
 }
 
 .project-link {
