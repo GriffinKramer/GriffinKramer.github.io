@@ -93,6 +93,16 @@ h1 {
   color: var(--text);
   margin-bottom: 1.5rem;
 }
+.secret-d {
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
+.secret-d:hover {
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
 h1 em { color: var(--blue); }
 .hero-bio {
   color: var(--text-muted);
