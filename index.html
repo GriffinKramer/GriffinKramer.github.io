@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Griffin D. Kramer — Bioinformatics</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <span class="nav-name">GDK</span>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header id="about">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-label">Bioinformatics Researcher</p>
+        <h1>Griffin D.<br><em>Kramer</em></h1>
+        <p class="hero-bio">
+          MSc Molecular Biosciences (Bioinformatics) student at the University of Bath.
+          I build computational pipelines to extract biological insight from large-scale
+          sequencing data — RNA-seq, ChIP-seq, Hi-C, and CRISPR genomics.
+          Previously at UC Santa Barbara's College of Creative Studies, where I developed
+          tools for CRISPRi screen analysis and 3D genome organisation.
+        </p>
+        <div class="hero-tags">
+          <span>NGS Pipelines</span>
+          <span>CRISPR Genomics</span>
+          <span>3D Genome</span>
+          <span>Multi-omics</span>
+          <span>Python · R · Bash</span>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/GriffinKramer" target="_blank" class="btn-outline">GitHub →</a>
+          <a href="https://www.linkedin.com/in/griffin-d-kramer" target="_blank" class="btn-outline">LinkedIn →</a>
+          <a href="cv.pdf" class="btn-solid">Download CV</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="dna-ring">
+          <svg viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="130" cy="130" r="110" fill="none" stroke="var(--accent)" stroke-width="0.6" stroke-dasharray="4 6" opacity="0.4"/>
+            <circle cx="130" cy="130" r="80" fill="none" stroke="var(--accent)" stroke-width="0.6" stroke-dasharray="2 8" opacity="0.25"/>
+            <circle cx="130" cy="130" r="52" fill="var(--bg-card)" stroke="var(--accent)" stroke-width="1"/>
+            <text x="130" y="126" text-anchor="middle" font-family="'DM Serif Display', serif" font-size="13" fill="var(--accent)" letter-spacing="2">G·D·K</text>
+            <text x="130" y="144" text-anchor="middle" font-family="'DM Mono', monospace" font-size="7.5" fill="var(--text-muted)" letter-spacing="1">BIOINFORMATICS</text>
+            <!-- orbit dots -->
+            <circle cx="130" cy="20" r="4" fill="var(--accent)" opacity="0.7"/>
+            <circle cx="240" cy="130" r="3" fill="var(--accent)" opacity="0.5"/>
+            <circle cx="130" cy="240" r="4" fill="var(--accent)" opacity="0.7"/>
+            <circle cx="20" cy="130" r="3" fill="var(--accent)" opacity="0.5"/>
+            <circle cx="222" cy="52" r="2.5" fill="var(--accent)" opacity="0.4"/>
+            <circle cx="38" cy="208" r="2.5" fill="var(--accent)" opacity="0.4"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <!-- stats bar -->
+    <div class="stats-bar">
+      <div class="stat"><span class="stat-n">4+</span><span class="stat-l">Years Research</span></div>
+      <div class="stat"><span class="stat-n">2</span><span class="stat-l">MSc Awards</span></div>
+      <div class="stat"><span class="stat-n">NSF</span><span class="stat-l">GRFP Honorable Mention</span></div>
+      <div class="stat"><span class="stat-n">6</span><span class="stat-l">GitHub Repos</span></div>
+    </div>
+  </header>
+
+  <!-- RESEARCH EXPERIENCE -->
+  <section id="research">
+    <div class="section-inner">
+      <h2 class="section-title">Research</h2>
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-meta">
+            <span class="tl-date">2026</span>
+            <span class="tl-dot"></span>
+          </div>
+          <div class="tl-body">
+            <div class="tl-header">
+              <h3>Graduate Researcher — Hunt Lab</h3>
+              <span class="tl-place">University of Bath</span>
+            </div>
+            <p>Analysed Hi-C sequencing data to map 3D genome organisation in <em>Strongyloides</em> spp., identifying chromatin compartments, TADs, and long-range genomic interactions associated with parasitism-related gene islands.</p>
+            <div class="tl-tags"><span>Hi-C</span><span>3D Genome</span><span>Chromatin</span></div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-meta">
+            <span class="tl-date">2026</span>
+            <span class="tl-dot"></span>
+          </div>
+          <div class="tl-body">
+            <div class="tl-header">
+              <h3>Graduate Researcher — Taylor Lab</h3>
+              <span class="tl-place">University of Bath</span>
+            </div>
+            <p>Processed high-dimensional bulk RNA-seq datasets using DESeq2 and fgsea in R. Integrated RNA-seq data with variant calling outputs to nominate candidate drivers of phenotypic change via reproducible multi-omics pipelines.</p>
+            <div class="tl-tags"><span>RNA-seq</span><span>DESeq2</span><span>GSEA</span><span>Multi-omics</span></div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-meta">
+            <span class="tl-date">2022–2025</span>
+            <span class="tl-dot"></span>
+          </div>
+          <div class="tl-body">
+            <div class="tl-header">
+              <h3>Undergraduate Researcher — Richardson Lab</h3>
+              <span class="tl-place">UC Santa Barbara</span>
+            </div>
+            <p>Developed a Python/pandas CRISPRi screen analysis pipeline integrating Bowtie2, SAMtools, and MAGeCK-iNC, reducing candidate gene lists by ~65%. Engineered MOTREC, a ChIP-seq pipeline using MACS3 to identify CRISPR on- and off-target binding events.</p>
+            <div class="tl-tags"><span>CRISPRi</span><span>ChIP-seq</span><span>MAGeCK</span><span>MACS3</span><span>Python</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="alt-bg">
+    <div class="section-inner">
+      <h2 class="section-title">Publications &amp; Presentations</h2>
+      <div class="pub-list">
+
+        <div class="pub-item">
+          <span class="pub-type prep">In Preparation</span>
+          <p class="pub-title">Mapping dCas9-KRAB binding uncovers on and off-target transcriptional regulation events</p>
+          <p class="pub-authors">Joyce C.M.*, <strong>Kramer G.D.*</strong>, Vu J.T., et al.</p>
+        </div>
+
+        <div class="pub-item">
+          <span class="pub-type poster">Poster</span>
+          <p class="pub-title">Mapping Off-Targets in Transcriptional Regulation Experiments using Callpeak Analysis</p>
+          <p class="pub-authors"><strong>Kramer G.D.</strong>, Joyce C.M., et al.</p>
+          <p class="pub-venue">UCSB RACA-con, November 2023</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-inner">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h4>Programming</h4>
+          <ul>
+            <li>Python <span>(pandas, NumPy)</span></li>
+            <li>R <span>(DESeq2, fgsea, tidyverse)</span></li>
+            <li>Bash / Shell</li>
+            <li>Java · C</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>NGS Tools</h4>
+          <ul>
+            <li>Bowtie2 · STAR · HISAT2</li>
+            <li>SAMtools · MACS2/3</li>
+            <li>MAGeCK-iNC</li>
+            <li>Nextflow</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Assay Types</h4>
+          <ul>
+            <li>Bulk &amp; scRNA-seq</li>
+            <li>ChIP-seq · Hi-C</li>
+            <li>CRISPRi screens</li>
+            <li>Variant calling</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Analysis</h4>
+          <ul>
+            <li>Differential expression</li>
+            <li>GSEA / GO enrichment</li>
+            <li>3D genome organisation</li>
+            <li>ML methods (RF, PCA)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEACHING & LEADERSHIP -->
+  <section id="teaching" class="alt-bg">
+    <div class="section-inner">
+      <h2 class="section-title">Teaching &amp; Leadership</h2>
+      <div class="role-list">
+
+        <div class="role-item">
+          <div class="role-left">
+            <h3>Seminar Instructor — Quantitative Biology</h3>
+            <span class="role-place">UC Santa Barbara · Apr–Jun 2024</span>
+          </div>
+          <p>Co-designed and taught a 10-week undergraduate seminar on quantitative biology research methods.</p>
+        </div>
+
+        <div class="role-item">
+          <div class="role-left">
+            <h3>Instructional Assistant — Molecular Genetics II</h3>
+            <span class="role-place">UC Santa Barbara · Apr–Jun 2024</span>
+          </div>
+          <p>Selected based on course performance; supported students through weekly discussion sections.</p>
+        </div>
+
+        <div class="role-item">
+          <div class="role-left">
+            <h3>Founder — Quantitative Biology Club</h3>
+            <span class="role-place">UC Santa Barbara · Sept 2023–Jan 2025</span>
+          </div>
+          <p>Founded and grew a 50+ member club focused on computational biology, leading weekly discussions of contemporary research.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner contact-inner">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-blurb">I'm always open to discussing research, collaborations, or bioinformatics.</p>
+      <div class="contact-links">
+        <a href="mailto:griffinkramer@gmail.com">griffinkramer@gmail.com</a>
+        <a href="https://github.com/GriffinKramer" target="_blank">github.com/GriffinKramer</a>
+        <a href="https://www.linkedin.com/in/griffin-d-kramer" target="_blank">linkedin.com/in/griffin-d-kramer</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Griffin D. Kramer · University of Bath · <a href="https://github.com/GriffinKramer" target="_blank">GriffinKramer</a></p>
+  </footer>
+
+</body>
+</html>
