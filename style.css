@@ -94,12 +94,12 @@ h1 {
   margin-bottom: 1.5rem;
 }
 .secret-d {
-  color: inherit;
+  color: #0d1f3c;
   text-decoration: none;
   cursor: default;
 }
-.secret-d:hover {
-  color: inherit;
+.secret-d:hover, .secret-d:visited, .secret-d:active {
+  color: #0d1f3c;
   text-decoration: none;
   cursor: default;
 }
